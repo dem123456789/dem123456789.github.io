@@ -5,16 +5,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <title>Onepage - clean responsive HTML5 themes - thomsoon.com</title>
+    <title>Onepage - clean responsive HTML5 themes - thomsoon.com - API behance</title>
 
 		<meta name="description" content="Free download theme onepage, clean and modern responsive for all"/>
 		<meta name="keywords" content="responsive, html5, onepage, themes, template, clean layout, free web"/>
 		<meta name="author" content="Thomsoon.com"/>
-		
+	
 		<link rel="shortcut icon" href="img/favicon.png"> 
 		
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/api.css" />
 		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
 
 	<!--[if lt IE 9]>
@@ -39,22 +39,23 @@
 <!-- section start-page -->
 
   <section class="start-page parallax-background" id="home">
+    <script id="profile-template" type="text/x-handlebars-template">
   
     <div class="opacity"></div> <!-- Opacity color -->
       <div class="content">
         <div class="text">
         
-          <div class="logo"><img src="img/logo.png"></div>
+          <div class="logo"><img src="{{user.images.[138]}}"></div>
         
-          <h1>Creative branding</h1><hr/>
-          <p>Please familiarize yourself with our offer</p>
+          <h1>{{user.display_name}}</h1><hr/>
+          <p>{{user.fields}}</p>
           
           <a href="#about-us"><div class="read-more">Read more</div></a>
           
         </div>
         <div class="arrow-down"></div>
       </div>
-  
+    </script>
   </section>
 
   <!-- section menu mobile -->
@@ -104,7 +105,7 @@
   
   <section class="about-us" id="about-us">
   
-  <div class="content">
+    <div class="content">
   
     <h1>ABOUT US</h1>
     <hr/>
@@ -138,8 +139,7 @@
     
     </div>  
     
-  </div>
-  
+    </div>
   </section>
   
   <div class="clear"></div>  
@@ -149,6 +149,7 @@
   <section class="portfolio" id="portfolio">
 
 
+
     <div class="portfolio-margin">
     
       <h1>PORTFOLIO</h1>
@@ -156,147 +157,40 @@
     
     <!-- 1 item portoflio-->
     
-        <ul class="grid">
+        <ul class="grid" id="portfolio-grid">
+        
+        <script id="portfolio-template" type="text/x-handlebars-template">
+            
+        {{#each projects}}
         
           <li>
-            <a href="#">
-              <img src="img/portfolio/1.png" alt="Portfolio item" />
+            <a href="{{this.url}}">
+            {{#if this.covers.[404]}}
+              <img src="{{this.covers.[404]}}" alt="{{this.name}}" title="{{this.name}}">
+						{{else}}
+						{{#if this.covers.[230]}}
+              <img src="{{this.covers.[230]}}" alt="{{this.name}}">
+						{{else}}
+							<img src="{{this.covers.[202]}}" alt="{{this.name}}">
+						{{/if}}
+						{{/if}}
                 <div class="text">
-                  <p>PORTFOLIO 1</p>
-                  <p class="description">Your text here...</p>   
+                  <p>{{this.name}}</p>
+                  <p class="description">{{this.fields}}</p>   
               </div>
             </a>
           </li>
           
-          <!-- 2 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/2.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p>
-                  <p class="description"></p>               
-              </div>
-            </a>
-          </li>      
-
-          <!-- 3 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/3.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p> 
-                  <p class="description"></p>           
-              </div>
-            </a>
-          </li>      
-
-
-          <!-- 4 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/4.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p> 
-                  <p class="description"></p>         
-              </div>
-            </a>
-          </li>    
-
-          <!-- 5 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/5.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p> 
-                  <p class="description"></p>            
-              </div>
-            </a>
-          </li>    
-          
-
-          <!-- 6 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/6.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 6</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>         
-           
-         <!-- 7 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/7.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 7</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>    
-          
-          <!-- 8 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/8.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 8</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>          
-          
-          <!-- 9 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/9.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 9</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>          
-
-          <!-- 10 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/10.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 11</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>         
-
-          <!-- 11 item portoflio-->
-          
-          <li>
-            <a href="#">
-              <img src="img/portfolio/11.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 11</p> 
-                  <p class="description">Your text here...</p>           
-              </div>
-            </a>
-          </li>          
+        {{/each}}       
  
- 
-          
+        </script>  
+              
         </ul>  
-   
-   <a href="#"><div class="read-more">Read more</div></a>
-   
+        
+   <a href=""><div class="read-more">Read more</div></a>
    </div>   
+   
+       
          
    </section>
 
@@ -329,6 +223,8 @@
 
     </section>
 
+
+    <!-- Contact-->
 
     <!-- Contact-->
 
@@ -401,10 +297,10 @@
         
         </div>
         
-        <div class="copyright">© 2014. All Rights Reserved Thomsoon.com</div>        
+        <div class="copyright">© 2014. Template Thomsoon.com. Powered by <a href="http://www.behance.net">Behance</a></div>        
     
     
-    </section>    
+    </section>   
     
 
 </div>
@@ -412,30 +308,13 @@
 
 
 	<!-- Scripts -->
-	
-	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-	<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+  <script src="js/handlebars-v2.0.0.js"></script> <!-- Handlebars -->		
+	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->
 	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
 	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-	<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
-
-   <script>
-     $(function(){
-   
-       var $container = $('.grid');
-     
-       $container.imagesLoaded( function(){
-         $container.masonry({
-           itemSelector : 'li'
-         });
-       });
-     
-     });
-   </script>
-	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
-	<script src="js/script.js"></script> <!-- All script -->	
-
+	<script src="js/script-api.js"></script> <!-- All script -->	
 
 </body>
 
