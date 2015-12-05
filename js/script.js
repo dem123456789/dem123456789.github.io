@@ -78,6 +78,16 @@ else
 }
 
 
+$(".grid .text4 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('.grid .text4 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.grid .text4');
+},  3000);
 
   //Menu mobile click
   $( ".icon" ).click(function() {

@@ -1,21 +1,7 @@
-/* Thomsoon.com - OnePage CSS Responsive theme
--- version 1.0
--- Copyright (c) 2014 Thomsoon.com
--- licensed under the MIT
---
--- http://www.thomsoon.com/
---
-*/
-
-/* Font Google - strong reaload time */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
 
 
-/*
- * Theme Name: Onepage
- * Author: Thomsoon
- * Created: 14/11/2014
- */
+
 
 
 .preloader{
@@ -76,12 +62,12 @@ h1 span{
 
 
 ::selection {
-  background: #ada074;
+  background: #303030;
   color:white;
 }
 
 ::-moz-selection {
-  background: #ada074;
+  background: #303030;
   color:white;
 }
 
@@ -125,7 +111,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
+  background:rgba(51,51,51,0); /* Standard Off */
 }
 
 
@@ -178,8 +164,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #303030 ;
+  border:1px solid #303030 ;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +208,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#47D1FF;
   z-index:1000;
   display:none;
 }
@@ -273,7 +259,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#B0B0B0 ;
  }
 
 
@@ -332,31 +318,70 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#B0B0B0 ;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#B0B0B0 ;
 }
 
 
 /* About us */
 
-.about-us{
+.about-me{
   position:relative;
   width:100%;
   background:white;
   z-index:10;
 }
 
-.about-us .content{
+.about-me .content{
   position:relative;
   width:900px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.about-us h1{
+.about-me .self{
+  position:relative;
+  width:900px;
+  margin: 10 auto;
+  overflow: hidden;
+}
+
+.about-me img.image{
+  position:relative;
+  float:left;
+  width:300px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  border:5px solid #f0f0f0;
+  -moz-border-radius:300px;
+  -webkit-border-radius:300px;
+  border-radius: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+.about-me p.intro{
+  float:right;
+  text-align: left;
+  color: #202020 ;
+  width:500px;
+  line-height:26px;
+  letter-spacing:1px;
+  font-size:18px;
+  font-weight:300;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.about-me h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -368,7 +393,8 @@ h1 span{
 
 }
 
-.about-us hr{
+
+.about-me hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -378,7 +404,7 @@ h1 span{
 
 }
 
-.about-us p.title{
+.about-me p.title{
   color: #a4a4a4;
   margin:40px auto;
   width:300px;
@@ -389,7 +415,7 @@ h1 span{
   text-align:center;
 }
 
-.about-us h2{
+.about-me h2{
   text-align:center;
   margin-top:50px;
   font-size:26px;
@@ -401,7 +427,7 @@ h1 span{
   font-weight:400;
 }
 
-.about-us p{
+.about-me p{
   text-align:center;
   font-size:14px;
   width:250px;
@@ -413,7 +439,7 @@ h1 span{
   font-weight:300;
 }
 
-.about-us .column-one{
+.about-me .column-one{
   margin-top:40px;
   width:300px;
   float:left;
@@ -421,12 +447,12 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-one .circle-one{
+.about-me .column-one .circle-one{
   height: 100px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/responsive.png) white no-repeat center center;
+  background: url(../img/icons/Resume.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -439,12 +465,13 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+
+.about-me .column-one .circle-one:hover{
+  border:2px solid #303030;
 
 }
 
-.about-us .column-two{
+.about-me .column-two{
   margin-top:40px;
   width:300px;
   float:left;
@@ -452,12 +479,12 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-two .circle-two{
+.about-me .column-two .circle-two{
   height: 100px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url(../img/icons/CV.jpg) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -470,12 +497,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+.about-me .column-two .circle-two:hover{
+  border:2px solid #303030;
 }
 
 
-.about-us .column-three{ 
+.about-me .column-three{ 
   margin-top:40px;
   width:300px;
   float:left;
@@ -483,12 +510,12 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-three .circle-three{ 
+.about-me .column-three .circle-three{ 
   height: 100px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url(../img/icons/Timeline.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -501,8 +528,8 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+.about-me .column-three .circle-three:hover{ 
+  border:2px solid #303030;
 }
 
 
@@ -513,7 +540,7 @@ h1 span{
 .portfolio{
   position:relative;
   width:100%;
-  background:#f3f3f3;
+  background:white;
   z-index:10;
 
 }
@@ -547,9 +574,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#ada074;
+  background:#303030;
   color:white;
-  border:1px solid #ada074;
+  border:1px solid #303030;
 }
 
 .portfolio .portfolio-margin h1{
@@ -599,11 +626,11 @@ h1 span{
   position: relative;
 }
 
-.grid .text {
+.grid .text1 {
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgba(173,160,116,1);
+  background: rgba(102, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -613,26 +640,112 @@ h1 span{
 	transition: all 0.6s ease-in;
 }
 
-.grid .text:hover {
+.grid .text1:hover {
   opacity:1;
 }
 
-.grid .no-text {
+.grid .text2 {
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgba(173,160,116,0.5);
   z-index: 2;
   opacity:0;
-  -webkit-transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
 	-moz-transition: all 0.6s ease-in;
 	-ms-transition: all 0.6s ease-in;
 	-o-transition: all 0.6s ease-in;
 	transition: all 0.6s ease-in;
 }
 
-.grid .no-text:hover {
+.grid .text2:hover {
   opacity:1;
+}
+
+.grid .text2 p {
+  font-size: 18px;
+  text-align:center;
+  line-height:26px;
+  margin-top:40px;
+  font-weight: bold;
+  letter-spacing:1px;
+  color: #FFFFFF;
+}
+
+.grid .text2 p.description {
+  font-size: 12px;
+  width:300px;
+  margin-top:20px;
+  text-align:center;
+  line-height:20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position:relative;
+}
+
+.grid .text3 {
+  position: absolute;
+  width: 285px;
+  height:100%;
+  z-index: 2;
+  opacity:0;
+    -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+}
+
+.grid .text3:hover {
+  opacity:1;
+}
+
+.grid .text3 p {
+  font-size: 18px;
+  text-align:center;
+  line-height:26px;
+  margin-top:40px;
+  font-weight: bold;
+  letter-spacing:1px;
+  color: #FFFFFF;
+}
+
+.grid .text3 p.description {
+  font-size: 12px;
+  width:300px;
+  margin-top:20px;
+  text-align:center;
+  line-height:20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position:relative;
+}
+
+.grid .text4 {
+  position: absolute;
+  width: 285px;
+  height:100%;
+  z-index: 2;
+  opacity:0;
+    -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+}
+
+.grid .text4:hover {
+  opacity:1;
+}
+
+.grid .text4 p.description {
+  font-size: 12px;
+  width:300px;
+  margin-top:20px;
+  text-align:center;
+  line-height:20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position:relative;
 }
 
 .grid p {
@@ -642,7 +755,7 @@ h1 span{
   margin-top:40px;
   font-weight: bold;
   letter-spacing:1px;
-  color: #FFF;
+  color: #000000;
 }
 
 .grid p.description {
@@ -652,7 +765,7 @@ h1 span{
   text-align:center;
   line-height:20px;
   font-weight: 400;
-  color: #FFF;
+  color: #000000;
   position:relative;
 }
 
@@ -660,28 +773,27 @@ h1 span{
     clear:both; 
 }
 
-/* Partners */
+/* Gallery */
 
-.partners{
+.gallery{
   position:relative;
   width:100%;
   z-index:10;
-  height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height:300px;
+	padding: 5em 0 5em 0;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
 }
 
-.partners .opacity{
+.gallery .opacity{
   position:absolute;
   width:100%;
   height:400px;
-  background:rgba(79,79,79,0.6);
+  background:rgba(51,51,51,0);
 }
 
-.partners .content{
+.gallery .content{
   position:absolute;
   width:900px;
   height:190px;
@@ -692,7 +804,7 @@ h1 span{
   right:0;
 }
 
-.partners h2{
+.gallery h2{
   color:white;
   letter-spacing:1px;
   font-size:32px;
@@ -700,7 +812,7 @@ h1 span{
   text-align:center;
 }
 
-.partners .logo{
+.gallery .logo{
   position:relative;
   width:900px;
   overflow:hidden;
@@ -708,7 +820,7 @@ h1 span{
   text-align:center;
 }
 
-.partners .logo img{
+.gallery .logo img{
   opacity:0.5;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -717,7 +829,7 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.partners .logo img:hover{
+.gallery .logo img:hover{
   opacity:1;
 }
 

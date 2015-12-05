@@ -62,15 +62,15 @@ h1 {
   width:300px;
 }
 
-.partners .content{
+.gallery .content{
   width:300px;
 }
 
-.partners .logo {
+.gallery .logo {
   width:300px;
 }
 
-.partners .logo img {
+.gallery .logo img {
   width:80px;
   padding-bottom:20px;
 }
@@ -138,7 +138,7 @@ textarea{
   width:540px;
 }
 
-.partners .logo img {
+.gallery .logo img {
   padding-bottom:20px;
 }
 
@@ -185,15 +185,15 @@ h1 {
   width:300px;
 }
 
-.partners .content{
+.gallery .content{
   width:400px;
 }
 
-.partners .logo {
+.gallery .logo {
   width:400px;
 }
 
-.partners .logo img {
+.gallery .logo img {
   width:80px;
   padding-bottom:20px;
 }
@@ -292,11 +292,11 @@ textarea{
   width:600px;
 }
 
-.partners .content{
+.gallery .content{
   width:700px;
 }
 
-.partners .logo {
+.gallery .logo {
   width:700px;
 }
 
