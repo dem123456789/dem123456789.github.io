@@ -1124,11 +1124,6 @@ input.submit{
 		}
 
 /* List */		
-		ul.icons {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
 
 			ul.icons li {
 				display: inline-block;
