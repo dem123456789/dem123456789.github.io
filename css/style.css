@@ -630,7 +630,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgba(102, 162, 255,0.2);
+  background: rgba(200, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -804,6 +804,44 @@ h1 span{
 }
 
 .grid .text6 p.description {
+  font-size: 12px;
+  width:300px;
+  margin-top:20px;
+  text-align:center;
+  line-height:20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position:relative;
+}
+
+.grid .text7 {
+  position: absolute;
+  width: 285px;
+  height:100%;
+  z-index: 2;
+  opacity:0;
+  background: rgba(200, 162, 255,0.2);
+    -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+}
+
+.grid .text7:hover {
+  opacity:1;
+}
+
+.grid .text7 p {
+  font-size: 18px;
+  text-align:center;
+  line-height:26px;
+  margin-top:40px;
+  font-weight: bold;
+  letter-spacing:1px;
+}
+
+.grid .text7 p.description {
   font-size: 12px;
   width:300px;
   margin-top:20px;
