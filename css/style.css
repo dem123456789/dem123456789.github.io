@@ -648,6 +648,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
+  background: rgba(200, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -686,6 +687,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
+  background: rgba(200, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -723,6 +725,7 @@ h1 span{
 .grid .text4 {
   position: absolute;
   width: 285px;
+  background: rgba(200, 162, 255,0.2);
   height:100%;
   z-index: 2;
   opacity:0;
@@ -744,7 +747,7 @@ h1 span{
   text-align:center;
   line-height:20px;
   font-weight: 400;
-  color: #0039e6;
+  color: #FFFFFF;
   position:relative;
 }
 
@@ -752,6 +755,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
+  background: rgba(200, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -772,7 +776,7 @@ h1 span{
   text-align:center;
   line-height:20px;
   font-weight: 400;
-  color: #ff1a1a;
+  color: #FFFFFF;
   position:relative;
 }
 
@@ -780,6 +784,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
+  background: rgba(200, 162, 255,0.2);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -800,7 +805,6 @@ h1 span{
   margin-top:40px;
   font-weight: bold;
   letter-spacing:1px;
-  color: #FFFFFF;
 }
 
 .grid .text6 p.description {
