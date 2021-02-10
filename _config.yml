@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Enmao Diao"
-  avatar           : "profile.png"
-  bio              : "Ph.D. candidate at Duke University, interested in Aritifical Intelligence and Distributed Learning Systems"
+  avatar           : "me.png"
+  bio              : "Ph.D. student at Duke University, interested in Aritifical Intelligence and Distributed Learning Systems"
   location         : "Durham, NC, US"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=jhVVjF4AAAAJ&hl=en&oi=ao"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Enmao_Diao"
+  email            : "enmao.diao@duke.edu"
+  researchgate     : "https://www.researchgate.net/profile/Enmao_Diao"
   uri              :
   bitbucket        :
   codepen          :
