@@ -39,7 +39,7 @@ Jie Ding, **Enmao Diao**, Jiawei Zhou, Vahid Tarokh. "On Statistical Efficiency 
 Jianyou Wang, Michael Xue, Ryan Culhane, **Enmao Diao**, Jie Ding, and Vahid Tarokh. "Speech emotion recognition with dual-sequence LSTM architecture." <i>ICASSP 2020</i>.
 [\[PDF\]](https://arxiv.org/abs/1910.08874)
 [\[Code\]](https://github.com/dem123456789/Speech-Emotion-Recognition-with-Dual-Sequence-LSTM-Architecture)
-<span style="color:green">\[Computer Audio\]</span>
+<span style="color:green">\[Audio Signal Processing\]</span>
 
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "DRASIC: Distributed Recurrent Autoencoder for Scalable Image Compression." <i>DCC 2020</i>.
 [\[PDF\]](https://arxiv.org/abs/1903.09887)
@@ -54,7 +54,7 @@ Suya Wu, **Enmao Diao**, Jie Ding, and Vahid Tarokh. "Deep Clustering of Compres
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "Restricted recurrent neural networks." <i>IEEE BigData 2019</i>.
 [\[PDF\]](https://arxiv.org/abs/1908.07724)
 [\[Code\]](https://github.com/dem123456789/Restricted-Recurrent-Neural-Networks)
-<span style="color:purple"> \[Compression\]</span>
+<span style="color:pink">\[Natural Language Processing\]</span><span style="color:purple"> \[Compression\]</span>
 
 Jie Ding, **Enmao Diao**, Jiawei Zhou, and Vahid Tarokh. "A penalized method for the predictive limit of learning." <i>ICASSP 2018</i>.
 [\[PDF\]](https://ieeexplore.ieee.org/document/8461832)
