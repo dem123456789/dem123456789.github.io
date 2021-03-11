@@ -11,7 +11,7 @@ I am a Ph.D. student supervised by [Prof. Vahid Tarokh](https://ece.duke.edu/fac
 I graduated with an M.S. in Electrical and Computer Engineering from Harvard University, 
 a B.S. in Electrical and Computer Engineering, and a B.S. in Computer Science from Georgia Institute of Technology.
 
-My research focus is on Aritifical Intelligence and Distributed Learning Systems.  
+My research focus is on **Aritifical Intelligence** and **Distributed Learning Systems**.  
 This is my [Resume](./files/Resume.pdf)
 
 ## Publications
@@ -21,10 +21,15 @@ This is my [Resume](./files/Resume.pdf)
 [\[Code\]]()
 <span style="color:blue">\[Distributed Learning Systems\]</span>
 
-**Enmao Diao**, Jie Ding, and Vahid Tarokh. "Multimodal controller for generative models." <i>Arxiv</i>.
+**Enmao Diao**, Jie Ding, and Vahid Tarokh. "Multimodal Controller for Generative Models." <i>Submitted to ICCV 2021</i>.
 [\[PDF\]](https://arxiv.org/abs/2002.02572)
-[\[Code\]]()
+[\[Code\]](https://github.com/dem123456789/Multimodal-Controller-for-Generative-Models)
 <span style="color:red">\[Computer Vision\]</span>
+
+Mohammadreza Momenifar, **Enmao Diao**, Vahid Tarokh, and Andrew D. Bragg. "Dimension Reduced Turbulent Flow Data From Deep Vector Quantizers." <i>Submitted to Physical Review Fluids</i>.
+[\[PDF\]](https://arxiv.org/abs/2103.01074)
+[\[Code\]]()
+<span style="color:purple">\[Compression\]</span><span style="color:cyan">\[AI in Physics\]</span>
 
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "HeteroFL: Computation and communication efficient federated learning for heterogeneous clients." <i>ICLR 2021</i>.
 [\[PDF\]](https://arxiv.org/abs/2010.01264)
