@@ -16,8 +16,14 @@ This is my [Resume](./files/Resume.pdf)
 
 ## Publications
 
-**Enmao Diao**, Jie Ding, and Vahid Tarokh. "Gradient Assisted Learning." <i>Submitted to ICML 2021</i>.
-[\[PDF\]]()
+### New
+**Enmao Diao**, Jie Ding, and Vahid Tarokh. "SemiFL: Communication Efficient Semi-Supervised Federated Learning with Unlabeled Clients." <i>Submitted to NeurIPS 2021</i>.
+[\[PDF\]](https://arxiv.org/abs/2106.01432)
+[\[Code\]]()
+<span style="color:blue">\[Distributed Learning Systems\]</span>
+
+**Enmao Diao**, Jie Ding, and Vahid Tarokh. "Gradient Assisted Learning." <i>Submitted to NeurIPS 2021</i>.
+[\[PDF\]](https://arxiv.org/abs/2106.01425)
 [\[Code\]]()
 <span style="color:blue">\[Distributed Learning Systems\]</span>
 
@@ -31,6 +37,7 @@ Mohammadreza Momenifar, **Enmao Diao**, Vahid Tarokh, and Andrew D. Bragg. "Dime
 [\[Code\]]()
 <span style="color:purple">\[Compression\]</span><span style="color:cyan">\[AI in Physics\]</span>
 
+### Published
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "HeteroFL: Computation and communication efficient federated learning for heterogeneous clients." <i>ICLR 2021</i>.
 [\[PDF\]](https://arxiv.org/abs/2010.01264)
 [\[Code\]](https://github.com/dem123456789/HeteroFL)
@@ -61,7 +68,7 @@ Suya Wu, **Enmao Diao**, Jie Ding, and Vahid Tarokh. "Deep Clustering of Compres
 [\[Code\]](https://github.com/dem123456789/Restricted-Recurrent-Neural-Networks)
 <span style="color:pink">\[Natural Language Processing\]</span><span style="color:purple"> \[Compression\]</span>
 
-Jie Ding, **Enmao Diao**, Jiawei Zhou, and Vahid Tarokh. "A penalized method for the predictive limit of learning." <i>ICASSP 2018</i>.
+Jie Ding, **Enmao Diao**, Jiawei Zhou, and Vahid Tarokh. "A Penalized Method for the Predictive Limit of Learning." <i>ICASSP 2018</i>.
 [\[PDF\]](https://ieeexplore.ieee.org/document/8461832)
 [\[Code\]](https://github.com/dem123456789/On-Statistical-Efficiency-in-Learning)
 <span style="color:orange"> \[Theory\]</span>
