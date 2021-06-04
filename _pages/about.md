@@ -16,7 +16,7 @@ This is my [Resume](./files/Resume.pdf)
 
 ## Publications
 
-### New
+### <span style="color:red">New</span>
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "SemiFL: Communication Efficient Semi-Supervised Federated Learning with Unlabeled Clients." <i>Submitted to NeurIPS 2021</i>.
 [\[PDF\]](https://arxiv.org/abs/2106.01432)
 [\[Code\]]()
@@ -37,7 +37,7 @@ Mohammadreza Momenifar, **Enmao Diao**, Vahid Tarokh, and Andrew D. Bragg. "Dime
 [\[Code\]]()
 <span style="color:purple">\[Compression\]</span><span style="color:cyan">\[AI in Physics\]</span>
 
-### Published
+### <span style="color:black">Published</span>
 **Enmao Diao**, Jie Ding, and Vahid Tarokh. "HeteroFL: Computation and communication efficient federated learning for heterogeneous clients." <i>ICLR 2021</i>.
 [\[PDF\]](https://arxiv.org/abs/2010.01264)
 [\[Code\]](https://github.com/dem123456789/HeteroFL)
