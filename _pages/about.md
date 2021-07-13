@@ -12,7 +12,7 @@ I graduated with an M.S. in Electrical and Computer Engineering from Harvard Uni
 a B.S. in Electrical and Computer Engineering, and a B.S. in Computer Science from Georgia Institute of Technology.
 
 My research focus is on **Aritifical Intelligence** and **Distributed Learning Systems**.  
-This is my [Resume](./files/Resume.pdf)
+This is my [CV](./files/CV.pdf)
 
 ## Publications
 
